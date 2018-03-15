@@ -116,13 +116,13 @@ return array(
 
 		'db'=>array(
 
-			'connectionString' => 'mysql:host=localhost;dbname=eajpautdkf',
+			'connectionString' => 'mysql:host=localhost;dbname=dbname',
 
 			'emulatePrepare' => true,
 
-			'username' => 'eajpautdkf',
+			'username' => 'username',
 
-			'password' => 'dZVG34CaxT',
+			'password' => 'userpass',
 
 			'charset' => 'utf8',
 
