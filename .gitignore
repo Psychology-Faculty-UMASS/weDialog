@@ -7,7 +7,7 @@ session/
 themes/
 tmp/
 images/
-public_html/protected/config/
+protected/config/
 .htaccess
 cron.php
 error_log
