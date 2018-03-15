@@ -1,0 +1,1 @@
+<img src="<?php echo Yii::app()->request->baseUrl?>/images/website-under-construc.gif" width="100%" height="100%"/>

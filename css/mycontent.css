@@ -1,0 +1,13 @@
+body {
+    font-family: Helvetica, Arial sans-serif;
+    line-height: 140%;
+    font-size: 14px;
+} 
+
+.tinymce-content p {
+    padding: 0;
+    margin: 2px 0;
+    font-family: Helvetica,Arial, sans-serif;
+    line-height: 140%
+    font-size: 14px;
+}

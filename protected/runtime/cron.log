@@ -1,0 +1,532 @@
+2016/05/19 04:00:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/05/20 04:00:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/05/21 04:00:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/05/22 04:00:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/05/23 04:00:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/05/24 04:00:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/05/25 04:00:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/05/26 04:00:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/05/27 04:00:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/05/28 04:00:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/05/29 04:00:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/05/30 04:00:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/05/31 04:00:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/06/01 04:00:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/06/02 04:00:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/06/03 04:00:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/06/04 04:00:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/06/05 04:00:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/06/06 04:00:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/06/07 04:00:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/06/08 04:00:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/06/09 04:00:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/06/10 04:00:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/06/11 04:00:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/06/12 04:00:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/06/13 04:00:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/06/14 04:00:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
+2016/06/15 04:00:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'wedialog'@'localhost' (using password: YES)' in /home/wedialog/public_html/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /home/wedialog/public_html/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/wedialog/public_html/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/wedialog/public_html/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/wedialog/public_html/framework/base/CApplication.php(438): CModule->getComponent('db')
+#4 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(623): CApplication->getDb()
+#5 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 /home/wedialog/public_html/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(EmailTemplates))
+#7 /home/wedialog/public_html/protected/models/EmailTemplates.php(22): CActiveRecord::model('EmailTemplates')
+#8 /home/wedialog/public_html/protected/commands/CronjobCommand.php(17): EmailTemplates::model()
+#9 /home/wedialog/public_html/framework/console/CConsoleCommandRunner.php(67): CronjobCommand->run(Array)
+#10 /home/wedialog/public_html/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /home/wedialog/public_html/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /home/wedialog/public_html/framework/yiic.php(33): CApplication->run()
+#13 /home/wedialog/public_html/protected/yiic.php(6): require_once('/home/wedialog/...')
+#14 /home/wedialog/public_html/protected/yiic(3): require_once('/home/wedialog/...')
+#15 {main}
+---
